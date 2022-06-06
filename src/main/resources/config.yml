@@ -1,0 +1,51 @@
+amountWorldFoldersCopied: 5
+useMyDungeons: true
+startMessage: true
+voidReset: 85
+customTexturePack:
+  useCustomTexturePack: true
+  textureURL: https://drive.google.com/uc?export=download&id=17T7Orp4rEs9TFauWTBTlL8DaX6U2Ca_l
+fillInvs:
+  bool: true
+  itemName:
+  material: GLASS_PANE
+  modelDataId: 0
+kickMessageWhenReload: §4Server is restarting...
+playerMsgStarting: §2Server is still starting...Please wait!
+period: 10
+noWorldAvailableMessage: &cNo more dungeons available right now!
+dungeons:
+  - em_sewer_maze
+  - em_hallosseum
+em_hallosseum:
+  environment: NETHER
+  desc:
+    - §4Hallosseum §1Dungeon!
+    - §8Next dungeon in
+    - §8%TIME%
+  spawn: 56.49973638938648;21.0;92.30000001192093;-0.8673631;2.6749074E-4
+  bossKill:
+    title: '&6Cleared Dungeon'
+    subtitle: '&7By %PLAYER% return with /dungeon leave'
+    fadeIn: 1
+    fadeOut: 1
+    stay: 80
+em_sewer_maze:
+  environment: NORMAL
+  desc:
+    - §3Big Sewer Maze §1Dungeon
+    - §8Next dungeon in
+    - §8%TIME%
+  spawn: -23.635821503918038;167.0;-173.91356161683157;90.44556;-7.47215
+  bossKill:
+    title: '&6Cleared Dungeon'
+    subtitle: '&7By %PLAYER% return with /dungeon leave'
+    fadeIn: 1
+    fadeOut: 1
+    stay: 80
+
+portal:
+  pos1: -85.0;122.0;7.0
+  pos2: -83.8;121.0;5.3
+hologram:
+  location: -82.69999998807907;124.72893532966192;6.267492045618548;-88.73193;88.59874

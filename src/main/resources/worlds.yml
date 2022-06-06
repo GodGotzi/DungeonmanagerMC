@@ -1,0 +1,10 @@
+worlds:
+  openworld:
+    environment: NORMAL
+    generator: TerraformGenerator
+  resourceworlds/end:
+    environment: THE_END
+  resourceworlds/nether:
+    environment: NETHER
+  resourceworlds/overworld:
+    environment: NORMAL

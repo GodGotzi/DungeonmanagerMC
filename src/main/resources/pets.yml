@@ -1,0 +1,77 @@
+levelUp:
+  title: '&3Your &6%PET%&3 reached next Level'
+  subTitle: '&7Level &6%LVL%'
+  fadeIn: 1
+  fadeOut: 1
+  stay: 80
+levelExpShow:
+  text: '&3%PET% &7Level &6%LVL%'
+  barColor: BLUE
+  barStyle: SOLID
+item:
+  lore:
+    - '&3Level &6%LVL%'
+    - '&3Next Level %NLVL%/100%'
+    - '&cDamage &6%DAMAGE%'
+    - '&2Attackspeed &6%ASPEED%'
+level:
+  1:
+    damage: 1
+    attackSpeed: 40
+  2:
+    damage: 1
+    attackSpeed: 38
+  3:
+    damage: 1
+    attackSpeed: 36
+  4:
+    damage: 1
+    attackSpeed: 34
+  5:
+    damage: 2
+    attackSpeed: 34
+  6:
+    damage: 2
+    attackSpeed: 34
+  7:
+    damage: 2
+    attackSpeed: 32
+  8:
+    damage: 2
+    attackSpeed: 30
+  9:
+    damage: 2
+    attackSpeed: 28
+  10:
+    damage: 3
+    attackSpeed: 28
+  11:
+    damage: 3
+    attackSpeed: 26
+  12:
+    damage: 3
+    attackSpeed: 24
+  13:
+    damage: 3
+    attackSpeed: 22
+  14:
+    damage: 3
+    attackSpeed: 20
+  15:
+    damage: 4
+    attackSpeed: 20
+  16:
+    damage: 4
+    attackSpeed: 18
+  17:
+    damage: 4
+    attackSpeed: 16
+  18:
+    damage: 4
+    attackSpeed: 14
+  19:
+    damage: 4
+    attackSpeed: 12
+  20:
+    damage: 4
+    attackSpeed: 10

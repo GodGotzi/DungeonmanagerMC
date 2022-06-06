@@ -1,0 +1,9 @@
+overworld:
+  spawn: resourceworlds/overworld;57.41065298338953;179.0;-37.51288654469875;90.81995;-0.20012599
+  protectionRange: 150
+nether:
+  spawn: resourceworlds/nether;-184.4164207712925;77.0;73.39682705647543;-44.107388;10.209267
+  protectionRange: 150
+end:
+  spawn: resourceworlds/end;0.5176547650989817;64.0;0.4726238264701352;177.70099;6.255424
+  protectionRange: 150

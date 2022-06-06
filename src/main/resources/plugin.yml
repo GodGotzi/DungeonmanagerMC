@@ -1,0 +1,104 @@
+name: DungeonManager
+version: 1.0
+main: at.gotzi.dungeonmanager.Main
+api-version: 1.17
+authors: [ Gotzi ]
+description: DungeonManager
+commands:
+  dm:
+    description: DungeonManager
+    aliases:
+      - dungeonmanager
+    permission: system.dungeon
+  world:
+    description: world managment
+    permission: system.world
+  portal:
+    description: set portals
+    permission: system.portal
+  party:
+    description: party commands
+  c:
+    description: claim
+    aliases:
+      - claim
+  tpa:
+    description: tpa
+  tpahere:
+    description: tpahere
+  near:
+    description: near
+  craft:
+    description: craft
+    aliases:
+      - wb
+      - workbench
+  repairhand:
+    description: repair
+    aliases:
+      - repair
+  expwithdraw:
+    description: exp
+  stack:
+    description: stack
+  heal:
+    description: heal
+  back:
+    description: back
+  feed:
+    description: feed
+  nightvision:
+    description: nv
+    aliases:
+      - nv
+  ptime:
+    description: ptime
+  home:
+    description: home
+  delhome:
+    description: delhome
+  sethome:
+    description: sethome
+  pweather:
+    description: pweather
+  telekinesis:
+    description: tele
+  itemfilter:
+    description: itemfilter
+  pet:
+    description: pet
+  skills:
+    description: skills
+  system:
+    description: system
+    permission: system.manage
+  spawn:
+    description: spawn
+  fly:
+    description: fly
+  sitonplayer:
+    description: sitonplayer
+  build:
+    description: build
+    permission: system.build
+  dungeon:
+    description: dungeon
+  wild:
+    description: wild
+    aliases:
+      - rtp
+  hunt:
+    description: hunt
+  huntonoff:
+    description: huntonoff
+    permission: hunt.manage
+depend:
+  - Essentials
+  - EliteMobs
+  - HolographicDisplays
+  - TerraformGenerator
+  - Vault
+  - Jobs
+  - CrazyAdvancementsAPI
+  - GSit
+  - ExcellentEnchants

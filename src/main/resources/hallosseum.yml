@@ -1,0 +1,4 @@
+joinMessage: 'test'
+leaveMessage: 'test'
+deathMessage: 'test'
+mobs:

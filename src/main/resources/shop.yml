@@ -1,0 +1,423 @@
+itemlore:
+  - '&2%COST%$'
+  - '&eLeft Click: Buy'
+  - '&cRight Click: Sell'
+buyInfoItemLore:
+  - '&2%COST%$'
+invs:
+  npc: blacksmith.yml
+  percent: 20 #%
+  backItem:
+    itemName: '&cBack'
+    material: ARROW
+    lore:
+    slot: 36
+    glow:
+    modelDataId: 0
+    enchantments:
+  buyInfo:
+    arrangement: 20;21;22;23;24
+  main:
+    title: Dealer
+    items:
+      closeItem:
+        itemName: '&aExit'
+        material: BARRIER
+        lore:
+        slot: 36
+        modelDataId: 0
+        enchantments:
+items:
+  parent:
+    wood:
+      itemName: 'Wood'
+      material: OAK_WOOD
+      lore:
+      modelDataId: 0
+      enchantments:
+      child:
+        parent:
+          oak:
+            itemName: 'Oak Wood'
+            material: OAK_WOOD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              oak_log:
+                material: OAK_LOG
+                price: 16
+              oak_planks:
+                material: OAK_PLANKS
+                price: 4
+          spruce:
+            itemName: 'Spruce Wood'
+            material: SPRUCE_WOOD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              spruce_log:
+                material: SPRUCE_LOG
+                price: 16
+              spruce_planks:
+                material: SPRUCE_PLANKS
+                price: 4
+          birch:
+            itemName: 'Birch Wood'
+            material: BIRCH_WOOD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              birch_log:
+                material: BIRCH_LOG
+                price: 16
+              birch_planks:
+                material: BIRCH_PLANKS
+                price: 4
+          jungle:
+            itemName: 'Jungle Wood'
+            material: JUNGLE_WOOD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              jungle_log:
+                material: JUNGLE_LOG
+                price: 16
+              jungle_planks:
+                material: JUNGLE_PLANKS
+                price: 4
+          acacia:
+            itemName: 'Acacia Wood'
+            material: ACACIA_WOOD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              acacia_log:
+                material: ACACIA_LOG
+                price: 16
+              acacia_planks:
+                material: ACACIA_PLANKS
+                price: 4
+          dark_oak:
+            itemName: 'Dark Oak Wood'
+            material: DARK_OAK_WOOD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              dark_oak_log:
+                material: DARK_OAK_LOG
+                price: 16
+              dark_oak:
+                material: DARK_OAK_PLANKS
+                price: 4
+    food:
+      itemName: 'Food'
+      material: COOKED_BEEF
+      lore:
+      modelDataId: 0
+      enchantments:
+      child:
+        parent:
+          beef:
+            itemName: 'Cooked Beef'
+            material: COOKED_BEEF
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              cooked_beef:
+                material: COOKED_BEEF
+                price: 48
+              beef:
+                material: BEEF
+                price: 24
+          porkchop:
+            itemName: 'Cooked Porkchop'
+            material: COOKED_PORKCHOP
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              cooked_porkchop:
+                material: COOKED_PORKCHOP
+                price: 48
+              porkchop:
+                material: PORKCHOP
+                price: 24
+          chicken:
+            itemName: 'Cooked Chicken'
+            material: COOKED_CHICKEN
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              cooked_chicken:
+                material: COOKED_CHICKEN
+                price: 48
+              chicken:
+                material: CHICKEN
+                price: 24
+          mutton:
+            itemName: 'Cooked Mutton'
+            material: COOKED_MUTTON
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              cooked_mutton:
+                material: COOKED_MUTTON
+                price: 48
+              mutton:
+                material: MUTTON
+                price: 24
+          potato:
+            itemName: 'Potato'
+            material: POTATO
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              potato:
+                material: POTATO
+                price: 16
+              baked_potato:
+                material: BAKED_POTATO
+                price: 32
+          carrot:
+            itemName: 'carrot'
+            material: CARROT
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              carrot:
+                material: CARROT
+                price: 16
+              golden_carrot:
+                material: GOLDEN_CARROT
+                price: 48
+          apple:
+            itemName: 'apple'
+            material: APPLE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              apple:
+                material: APPLE
+                price: 24
+              golden_apple:
+                material: GOLDEN_APPLE
+                price: 64
+    stone:
+      itemName: 'Stones'
+      material: STONE
+      lore:
+      modelDataId: 0
+      enchantments:
+      child:
+        parent:
+          stone:
+            itemName: 'Stone'
+            material: STONE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              Stone:
+                material: STONE
+                price: 16
+              cobblestone:
+                material: COBBLESTONE
+                price: 8
+              stone_bricks:
+                material: STONE_BRICKS
+                price: 16
+              chiselled_stone_bricks:
+                material: CHISELED_STONE_BRICKS
+                price: 24
+          deepslate:
+            itemName: 'Deepslate'
+            material: DEEPSLATE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              deepslate:
+                material: DEEPSLATE
+                price: 24
+              cobbled_deepslate:
+                material: COBBLED_DEEPSLATE
+                price: 16
+              polished_deepslate:
+                material: POLISHED_DEEPSLATE
+                price: 32
+          granite:
+            itemName: 'Granite'
+            material: GRANITE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              granite:
+                material: GRANITE
+                price: 16
+              polished_granite:
+                material: POLISHED_GRANITE
+                price: 24
+          diorite:
+            itemName: 'Diorite'
+            material: DIORITE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              diorite:
+                material: DIORITE
+                price: 16
+              polished_diorite:
+                material: POLISHED_DIORITE
+                price: 24
+          andesite:
+            itemName: 'Andesite'
+            material: ANDESITE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              andesite:
+                material: ANDESITE
+                price: 16
+              polished_andesite:
+                material: POLISHED_ANDESITE
+                price: 24
+    ore:
+      itemName: 'Ore'
+      material: DIAMOND_ORE
+      lore:
+      modelDataId: 0
+      enchantments:
+      child:
+        parent:
+          coal:
+            itemName: 'Coal'
+            material: COAL
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              coal:
+                material: COAL
+                price: 32
+              coal_block:
+                material: COAL_BLOCK
+                price: 288
+          iron:
+            itemName: 'Iron'
+            material: IRON_INGOT
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              iron_ingot:
+                material: IRON_INGOT
+                price: 64
+              iron_block:
+                material: IRON_BLOCK
+                price: 576
+          copper:
+            itemName: 'Copper'
+            material: COPPER_INGOT
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              copper_ingot:
+                material: COPPER_INGOT
+                price: 64
+              copper_block:
+                material: COPPER_BLOCK
+                price: 576
+          redstone:
+            itemName: 'Redstone'
+            material: REDSTONE
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              redstone:
+                material: REDSTONE
+                price: 16
+              restone_block:
+                material: REDSTONE_BLOCK
+                price: 144
+          gold_ingot:
+            itemName: 'Gold'
+            material: GOLD_INGOT
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              gold_ingot:
+                material: GOLD_INGOT
+                price: 32
+              gold_block:
+                material: GOLD_BLOCK
+                price: 288
+          lapis_lazuli:
+            itemName: 'Lapis Lazuli'
+            material: LAPIS_LAZULI
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              lapis_lazuli:
+                material: LAPIS_LAZULI
+                price: 32
+              lapis_block:
+                material: LAPIS_BLOCK
+                price: 288
+          emerald:
+            itemName: 'Emerald'
+            material: EMERALD
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              emerald:
+                material: EMERALD
+                price: 96
+              emerald_block:
+                material: EMERALD_BLOCK
+                price: 864
+          diamond:
+            itemName: 'Diamond'
+            material: DIAMOND
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              diamond:
+                material: DIAMOND
+                price: 128
+              diamond_block:
+                material: DIAMOND_BLOCK
+                price: 1152
+          netherite_ingot:
+            itemName: 'Netherite Ingot'
+            material: NETHERITE_INGOT
+            lore:
+            modelDataId: 0
+            enchantments:
+            child:
+              netherite_ingot:
+                material: NETHERITE_INGOT
+                price: 256
+              netherite_block:
+                material: NETHERITE_BLOCK
+                price: 2304

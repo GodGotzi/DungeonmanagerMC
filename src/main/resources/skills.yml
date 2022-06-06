@@ -1,0 +1,411 @@
+ARMORPLUS:
+  displayName: '&eArmor + %AMOUNT%'
+  item:
+    material: IRON_CHESTPLATE
+    itemName: '&eArmor + %AMOUNT%'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+BACKCMD:
+  displayName: '&4Go to death location'
+  item:
+    material: TOTEM_OF_UNDYING
+    itemName: '&4/back'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+CRAFTCMD:
+  displayName: '&4Craft whenever you want'
+  item:
+    material: CRAFTING_TABLE
+    itemName: '&4/craft'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+EXPWITHDRAWCMD:
+  displayName: '&4Save your exp'
+  item:
+    material: EXPERIENCE_BOTTLE
+    itemName: '&4/expwithdraw'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+FEEDCMD:
+  displayName: '&4Are you hungry?'
+  item:
+    material: COOKED_BEEF
+    itemName: '&4/feed'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+FIRERESISTANCE:
+  displayName: '&6Fire Resistance'
+  item:
+    material: POTION
+    type: FIRE_RESISTANCE
+    itemName: 'Fire Resistance'
+    lore:
+      - 'Potion Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+FLYCMDNETHEREND:
+  displayName: '&4Learn to fly!'
+  item:
+    material: ELYTRA
+    itemName: '&4/fly'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - OVERWORLD
+FLYCMDOVERWORLD:
+  displayName: '&4Learn to fly!'
+  item:
+    material: ELYTRA
+    itemName: '&4/fly'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - NETHER
+      - END
+FROSTWALK:
+  displayName: '&eFrostWalk'
+  item:
+    material: ICE
+    itemName: '&eFrostWalk'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+HEALCMD:
+  displayName: '&4Need some heal?'
+  item:
+    material: ENCHANTED_GOLDEN_APPLE
+    itemName: '&4/heal'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+HEALTHPLUS:
+  displayName: '&eHealth + %AMOUNT%'
+  item:
+    material: GOLDEN_APPLE
+    itemName: '&eHealth + %AMOUNT% '
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+ITEMFILTERCMD:
+  displayName: '&4Filter some Items'
+  item:
+    material: HOPPER
+    itemName: '&4/itemfilter'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+JOBEXPBOOST:
+  displayName: '&aJob exp Boost + %AMOUNT%%'
+  item:
+    material: EXPERIENCE_BOTTLE
+    itemName: '&aJobexp Boost + %AMOUNT%'
+    lore:
+      - 'Boost'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - JOB
+JUMPBOOST:
+  displayName: '&6JumBoost + %AMOUNT%Block'
+  item:
+    material: POTION
+    type: JUMP
+    itemName: '&6JumpBoost + %AMOUNT%Block'
+    lore:
+      - 'Potion Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+LAVAWALK:
+  displayName: '&eLavaWalk'
+  item:
+    material: MAGMA_BLOCK
+    itemName: '&eLavaWalk'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+MININGSPEEDBOOST:
+  displayName: '&aMiningSpeedBoost + %AMOUNT%%'
+  item:
+    material: IRON_PICKAXE
+    itemName: '&aMiningSpeedBoost + %AMOUNT%%'
+    lore:
+      - 'Boost'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+MONEYBOOST:
+  displayName: '&aMoneyBoost + %AMOUNT%%'
+  item:
+    material: PAPER
+    itemName: '&aMoneyBoost + %AMOUNT%%'
+    lore:
+      - 'Boost'
+    modelDataId: 123
+    glow: true
+    enchantments:
+      -
+MOVMENTBOOST:
+  displayName: '&aMovementBoost * %AMOUNT%'
+  item:
+    material: POTION
+    type: SPEED
+    itemName: '&aMovementBoost * %AMOUNT%'
+    lore:
+      - 'Boost'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+NEARCMD:
+  displayName: '&4Which player are around you?'
+  item:
+    material: COMPASS
+    itemName: '&4/near'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    enchantments:
+      -
+NEVEREMPTYBUCKET:
+  displayName: '&eNever Empty Buckets'
+  item:
+    material: BUCKET
+    itemName: '&eNever Empty Buckets'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+NIGHTVISIONCMD:
+  displayName: '&4Nightvision'
+  item:
+    material: POTION
+    type: NIGHT_VISION
+    itemName: '&4/nightvision'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+PET:
+  displayName: '&4Pet'
+  item:
+    material: CAT_SPAWN_EGG
+    itemName: '&4/pet'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+PROJECTILEPROT:
+  displayName: '&eProjectile Prot + %AMOUNT%%'
+  item:
+    material: IRON_CHESTPLATE
+    itemName: '&eProjectile Prot + %AMOUNT%%'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - PROTECTION_PROJECTILE
+PTIMECMD:
+  displayName: '&4Set your own time!'
+  item:
+    material: CLOCK
+    itemName: '&4/ptime'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - TIME
+PWEATHERCMD:
+  displayName: '&4Set your own weather!'
+  item:
+    material: CLOCK
+    itemName: '&4/pweather'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - WEATHER
+REGENERATION:
+  displayName: '&6Regeneration'
+  item:
+    material: POTION
+    type: REGEN
+    itemName: '&6Regeneration'
+    lore:
+      - 'Potion Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+REPAIRHANDCMD:
+  displayName: '&4Repair your stuff'
+  item:
+    material: ANVIL
+    itemName: '&4/repairhand'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+RESISTANCE:
+  displayName: '&eResistance'
+  item:
+    material: POTION
+    type: FIRE_RESISTANCE
+    itemName: '&eResistance'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+CHANCELIGHTNING:
+  displayName: '&eChance Lightning %AMOUNT%%'
+  item:
+    material: PAPER
+    itemName: '&eChance Lightning %AMOUNT%%'
+    lore:
+      - 'Effect'
+    modelDataId: 126
+    glow: true
+    enchantments:
+      -
+HOMECMD:
+  displayName: '&4Need a home?'
+  item:
+    material: PAPER
+    itemName: '&4 + %AMOUNT% /home'
+    lore:
+      - 'Command'
+    modelDataId: 125
+    glow: true
+    enchantments:
+      - HOME
+SILKTOUCHSPAWNERS:
+  displayName: '&eSilk Touch Spawners'
+  item:
+    material: SPAWNER
+    itemName: '&eSilk Touch Spawners'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - SILK_TOUCH
+SITONPLAYERHEADS:
+  displayName: '&eSit on player heads'
+  item:
+    material: PAPER
+    itemName: '&eSit on player heads'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+TELEKINESIS:
+  displayName: '&4Telekinesis'
+  item:
+    material: LEAD
+    itemName: '&4/telekinesis'
+    lore:
+      - 'Effect|Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      -
+TPACMD:
+  displayName: '&4Teleport /tpa'
+  item:
+    material: ENDER_PEARL
+    itemName: '&4/tpa'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - TPA
+TPAHERECMD:
+  displayName: '&4Teleport /tpahere'
+  item:
+    material: ENDER_PEARL
+    itemName: '&4/tpahere'
+    lore:
+      - 'Command'
+    modelDataId: 0
+    glow: true
+    enchantments:
+      - TPAHERE
+HUNGERBOOST:
+  displayName: '&eLess Hunger + %AMOUNT%'
+  item:
+    material: COOKED_MUTTON
+    itemName: '&eLess Hunger + %AMOUNT%'
+    lore:
+      - 'Effect'
+    modelDataId: 0
+    glow: true
+    enchantments:
+STACKCMD:
+  displayName: '&4Stack items /stack'
+  item:
+    material: IRON_BLOCK
+    itemName: '&4Stack items /stack'
+    lore:
+      - 'COMMAND'
+    modelDataId: 0
+    glow: true
+    enchantments:

@@ -1,0 +1,720 @@
+msgSettings:
+  fadeIn: 1
+  fadeOut: 1
+  stay: 40
+freeClasses:
+  - SQUIRE
+  - CHEMIST
+classGui:
+  npc: class_manager.yml
+  main:
+    title: Wizard
+    items:
+      skillsItem:
+        itemName: '&aSkills'
+        material: PAPER
+        lore:
+          - '%SKILLS...%'
+        slot: 21
+        modelDataId: 124
+        enchantments:
+      switchItem:
+        itemName: '&aClasses'
+        material: AMETHYST_SHARD
+        lore:
+          - 'test'
+        slot: 23
+        modelDataId: 0
+        enchantments:
+      closeItem:
+        itemName: '&aExit'
+        material: BARRIER
+        lore:
+        slot: 36
+        modelDataId: 0
+        enchantments:
+  skillInfo:
+    title: Skills
+    items:
+      backItem:
+        itemName: '&cBack'
+        material: ARROW
+        lore:
+        slot: 36
+        modelDataId: 0
+        enchantments:
+  buyInfo:
+    title: Buy Info
+    items:
+      buyItem:
+        itemName: '&4Buy'
+        material: PAPER
+        glow: true
+        lore:
+        slot: 24
+        modelDataId: 0
+        enchantments:
+      backItem:
+        itemName: '&cBack'
+        material: ARROW
+        lore:
+        slot: 36
+        modelDataId: 0
+        enchantments:
+  switch:
+    title: Classes
+    items:
+      backItem:
+        itemName: '&cBack'
+        material: ARROW
+        lore:
+        slot: 45
+        modelDataId: 0
+        enchantments:
+classes:
+  KNIGHT:
+    cost: 5000
+    NEARCMD: 150
+    classARMORPLUS: 5
+    openSkills:
+      - NEARCMD
+    onlyClassSkills:
+      - ARMORPLUS
+    neededClasses:
+      - SQUIRE
+    nextClasses:
+      - MONK
+      - SAMURAI
+      - DARK_KNIGHT
+    arrangement: 21;23;13
+    item:
+      itemName: '&8Knight'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 109
+      slot: 37
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Knight!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Knight!'
+      description: 'Up with the sword!'
+      x: -3
+      y: -3
+  MONK:
+    cost: 250000
+    classHEALTHPLUS: 8
+    openSkills:
+      - EXPWITHDRAWCMD
+    onlyClassSkills:
+      - HEALTHPLUS
+    neededClasses:
+      - KNIGHT
+    nextClasses:
+      - SAMURAI
+      - GEOMANCER
+    arrangement: 21;23
+    item:
+      itemName: '&8Monk'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 112
+      slot: 28
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Monk!'
+      subMsg: 'test'
+    advancement:
+      msg: '&6Unlock &8Monk!'
+      description: 'Up with the sword!'
+      x: -3
+      y: -4
+  SQUIRE:
+    cost: 0
+    classJOBEXPBOOST: 10 #%
+    openSkills:
+      - TPACMD
+      - TPAHERECMD
+    onlyClassSkills:
+      - JOBEXPBOOST
+    neededClasses:
+    nextClasses:
+      - ARCHER
+      - KNIGHT
+      - ONION_KNIGHT
+      - MIME
+    arrangement: 20;24;12;14
+    item:
+      itemName: '&8Squire'
+      lore:
+        - '&3%LOCK% Class'
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 118
+      slot: 47
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Squire!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Squire!'
+      description: 'Up with the sword!'
+      x: -2
+      y: -2
+  ARCHER:
+    cost: 60000
+    classRESISTANCE: 20 #%
+    openSkills:
+      - CRAFTCMD
+    onlyClassSkills:
+      - RESISTANCE
+    neededClasses:
+      - SQUIRE
+    nextClasses:
+      - THIEF
+      - NINJA
+    arrangement: 21;23
+    item:
+      itemName: '&8Archer'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 101
+      slot: 39
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Archer!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Archer!'
+      description: 'Up with the sword!'
+      x: -1
+      y: -3
+  SUMMONER:
+    cost: 1400000
+    openSkills:
+      - PET
+    onlyClassSkills:
+      - TELEKINESIS
+    neededClasses:
+      - TIME_MAGE
+    nextClasses:
+      - BARD
+      - MIME
+    arrangement: 21;23
+    item:
+      itemName: '&8Summoner'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 119
+      slot: 25
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Summoner!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Summoner!'
+      description: 'Up with the sword!'
+      x: 3
+      y: -5
+  SAMURAI:
+    cost: 200000
+    classARMORPLUS: 3
+    classRESISTANCE: 10 #%
+    openSkills:
+      - REPAIRHANDCMD
+    onlyClassSkills:
+      - ARMORPLUS
+      - RESISTANCE
+    neededClasses:
+      - DRAGOON
+      - MONK
+      - KNIGHT
+    nextClasses:
+      - BARD
+      - MIME
+    arrangement: 21;23
+    item:
+      itemName: '&8Samurai'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 117
+      slot: 27
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Samurai!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Samurai!'
+      description: 'Up with the sword!'
+      x: -4
+      y: -4
+  THIEF:
+    cost: 300000
+    classMOVMENTBOOST: 1
+    openSkills:
+      - STACKCMD
+    onlyClassSkills:
+      - MOVMENTBOOST
+    neededClasses:
+      - ARCHER
+    nextClasses:
+      - DRAGOON
+      - NINJA
+    arrangement: 21;23
+    item:
+      itemName: '&8Thief'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 120
+      slot: 30
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Thief!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Thief!'
+      description: 'Up with the sword!'
+      x: -1
+      y: -4
+  NINJA:
+    cost: 400000
+    MININGSPEEDBOOST: 10 #%
+    classMININGSPEEDBOOST: 10 #%
+    openSkills:
+      - MININGSPEEDBOOST
+    onlyClassSkills:
+      - MININGSPEEDBOOST
+    neededClasses:
+      - GEOMANCER
+      - THIEF
+      - ARCHER
+    nextClasses:
+      - DARK_KNIGHT
+    arrangement: 22
+    item:
+      itemName: '&8Ninja'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 114
+      slot: 31
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Ninja!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Ninja!'
+      description: 'Up with the sword!'
+      x: 0
+      y: -4
+  DRAGOON:
+    cost: 520000
+    JUMPBOOST: 1
+    classJUMPBOOST: 2
+    openSkills:
+      - JUMPBOOST
+    onlyClassSkills:
+      - JUMPBOOST
+    neededClasses:
+      - THIEF
+      - JUMPBOOST
+    nextClasses:
+      - SAMURAI
+      - DANCER
+      - DARK_KNIGHT
+      - MIME
+    arrangement: 20;24;12;14
+    item:
+      itemName: '&8Dragoon'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 107
+      slot: 19
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Dragoon!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Dragoon!'
+      description: 'Up with the sword!'
+      x: -3
+      y: -5
+  GEOMANCER:
+    cost: 800000
+    classFIRERESISTANCE: 100 #%
+    openSkills:
+      - NEVEREMPTYBUCKET
+    onlyClassSkills:
+      - FIRERESISTANCE
+    neededClasses:
+      - MONK
+    nextClasses:
+      - SAMURAI
+      - DANCER
+      - DARK_KNIGHT
+      - MIME
+    arrangement: 21;23;13
+    item:
+      itemName: '&8Geomancer'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 108
+      slot: 21
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Geomancer!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Geomancer!'
+      description: 'Up with the sword!'
+      x: -1
+      y: -5
+  CHEMIST:
+    cost: 0
+    classMONEYBOOST: 10 #%
+    openSkills:
+      - TPACMD
+      - TPAHERECMD
+    onlyClassSkills:
+      - MONEYBOOST
+    neededClasses:
+      -
+    nextClasses:
+      - BLACK_MAGE
+      - WHITE_MAGE
+      - ONION_KNIGHT
+    arrangement: 21;23
+    item:
+      itemName: '&8Chemist'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 104
+      slot: 51
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Chemist!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Chemist!'
+      description: 'Up with the sword!'
+      x: 2
+      y: -2
+  MYSTIC:
+    cost: 225000
+    openSkills:
+      - PTIMECMD
+      - PWEATHERCMD
+    onlyClassSkills:
+      - FROSTWALK
+      - LAVAWALK
+    neededClasses:
+      - WHITE_MAGE
+    nextClasses:
+      - ORATOR
+      - MATHEMATICIAN
+    arrangement: 21;23
+    item:
+      itemName: '&8Mystic'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 113
+      slot: 32
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Mystic!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Mystic!'
+      description: 'Up with the sword!'
+      x: 1
+      y: -4
+  DANCER:
+    cost: 600000
+    PROJECTILEPROT: 20 #%
+    classREGENERATION: 1
+    openSkills:
+      - PROJECTILEPROT
+    onlyClassSkills:
+      - REGENERATION
+    neededClasses:
+      - GEOMANCER
+      - DRAGOON
+    nextClasses:
+      -
+    item:
+      itemName: '&8Dancer'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 105
+      slot: 20
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Dancer!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Dancer!'
+      description: 'Up with the sword!'
+      x: -2
+      y: -5
+  DARK_KNIGHT:
+    cost: 2500000
+    classARMORPLUS: 8
+    classHEALTHPLUS: 8
+    openSkills:
+      - FLYCMDOVERWORLD
+    onlyClassSkills:
+      - ARMORPLUS
+      - HEALTHPLUS
+    neededClasses:
+      - NINJA
+      - GEOMANCER
+      - DRAGOON
+      - SAMURAI
+      - KNIGHT
+      - BLACK_MAGE
+    nextClasses:
+      -
+    item:
+      itemName: '&8Dark Knight'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 106
+      slot: 2
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Dark Knight!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Dark Knight!'
+      description: 'Up with the sword!'
+      x: -2
+      y: -7
+  ONION_KNIGHT:
+    cost: 10000
+    HOMECMD: 3
+    openSkills:
+      - HOMECMD
+    onlyClassSkills:
+      - SITONPLAYERHEADS
+    neededClasses:
+      - SQUIRE
+      - CHEMIST
+    nextClasses:
+      -
+    item:
+      itemName: '&8Onion Knight'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 115
+      slot: 49
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Onion Knight!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Dark Knight!'
+      description: 'Up with the sword!'
+      x: 0
+      y: -2.5
+  BLACK_MAGE:
+    cost: 100000
+    classCHANCELIGHTNING: 25 #% I think thats too high
+    openSkills:
+      - NIGHTVISIONCMD
+    onlyClassSkills:
+      - CHANCELIGHTNING
+    neededClasses:
+      - CHEMIST
+    nextClasses:
+      - TIME_MAGE
+      - MATHEMATICIAN
+    arrangement: 21;23
+    item:
+      itemName: '&8Black Mage'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 103
+      slot: 43
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Black Mage!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Black Mage!'
+      description: 'Up with the sword!'
+      x: 3
+      y: -3
+  WHITE_MAGE:
+    cost: 40000
+    classHUNGERBOOST: 80 #%
+    openSkills:
+      - HEALCMD
+    onlyClassSkills:
+      - HUNGERBOOST
+    neededClasses:
+      - CHEMIST
+    nextClasses:
+      - MYSTIC
+      - MATHEMATICIAN
+    arrangement: 21;23
+    item:
+      itemName: '&8White Mage'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 122
+      slot: 41
+    congratsTitle:
+      msg: 'Congrats you unlocked &8White Mage!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8White Mage!'
+      description: 'Up with the sword!'
+      x: 1
+      y: -3
+  TIME_MAGE:
+    cost: 500000
+    MOVMENTBOOST: 10 #%
+    openSkills:
+      - MOVMENTBOOST
+    onlyClassSkills:
+      - BACKCMD
+    neededClasses:
+      - BLACKMAGE
+    nextClasses:
+      - SUMMONER
+      - MATHEMATICIAN
+    arrangement: 21;23
+    item:
+      itemName: '&8Time Mage'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 121
+      slot: 34
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Time Mage!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Time Mage!'
+      description: 'Up with the sword!'
+      x: 3
+      y: -4
+  MATHEMATICIAN:
+    cost: 700000
+    itemfiltermenuname: Item Filter Menu
+    classMONEYBOOST: 10 #%
+    classJOBEXPBOOST: 10 #%
+    openSkills:
+      - ITEMFILTERCMD
+    onlyClassSkills:
+      - MONEYBOOST
+      - JOBEXPBOOST
+    neededClasses:
+      - WHITE_MAGE
+      - MYSTIC
+      - BLACK_MAGE
+      - TIME_MAGE
+    nextClasses:
+      -
+    item:
+      itemName: '&8Mathematician'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 110
+      slot: 42
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Mathematician!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Mathematician!'
+      description: 'Up with the sword!'
+      x: 2
+      y: -3.5
+  ORATOR:
+    cost: 1000000
+    classJOBEXPBOOST: 20 #%
+    openSkills:
+      - SILKTOUCHSPAWNERS
+    onlyClassSkills:
+      - JOBEXPBOOST
+    neededClasses:
+      - MYSTIC
+    nextClasses:
+      -
+    arrangement: 22
+    item:
+      itemName: '&8Orator'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 116
+      slot: 23
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Orator!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Orator!'
+      description: 'Up with the sword!'
+      x: 1
+      y: -5
+  BARD:
+    cost: 1600000
+    classMONEYBOOST: 20 #%
+    openSkills:
+      - FEEDCMD
+    onlyClassSkills:
+      - MONEYBOOST
+    neededClasses:
+      - ORATOR
+      - SUMMONER
+    nextClasses:
+      -
+    item:
+      itemName: '&8Bard'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 102
+      slot: 24
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Bard!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Bard!'
+      description: 'Up with the sword!'
+      x: 2
+      y: -5
+  MIME:
+    cost: 2000000
+    classMONEYBOOST: 20 #%
+    classJOBEXPBOOST: 25 #%
+    openSkills:
+      - FLYCMDNETHEREND
+    onlyClassSkills:
+      - MONEYBOOST
+      - JOBEXPBOOST
+    neededClasses:
+      - DRAGOON
+      - GEOMANCER
+      - ORATOR
+      - SUMMONER
+      - CHEMIST
+      - SQUIRE
+    nextClasses:
+      -
+    item:
+      itemName: '&8Mime'
+      lore:
+        - '&3%LOCK% Class'
+        - '&2%COST%$'
+      modelDataId: 111
+      slot: 6
+    congratsTitle:
+      msg: 'Congrats you unlocked &8Mime!'
+      subMsg: 'Up with the sword!'
+    advancement:
+      msg: '&6Unlock &8Mime!'
+      description: 'Up with the sword!'
+      x: 1.5
+      y: -7

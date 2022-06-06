@@ -1,0 +1,51 @@
+portals:
+  lobby-openworld:
+    world: world
+    pos1: 2.0;99.0;15.5
+    pos2: -2.0;101.0;14.5
+    destination: openworld;389.594160976504014;92.0;58.582017829946605;135.47304;0
+  guildlobby:
+    world: world
+    pos1: 204.2;87.0;237.0
+    pos2: 203.0;92.0;232.0
+    destination: world;-38.30504854532661;103.0;-61.53545188932906;1.197815;8.941534
+  lobbyguild:
+    world: world
+    pos1: -41.0;103.0;-63.5
+    pos2: -36.0;106.0;-63.0
+    destination: world;204.86250001192093;88.0;234.94776415098477;-91.88327;3.6033702
+  lobbyresource:
+    world: world
+    pos1: 16.2;102.0;-76.0
+    pos2: 15.5;106.0;-71.0
+    destination: resourceworlds/overworld;57.41065298338953;179.0;-37.51288654469875;90.81995;-0.20012599
+  resourcelobby:
+    world: resourceworlds/overworld
+    pos1: 59.2;179.0;-39.0
+    pos2: 58.5;180.0;-36.0
+    destination: world;15.151138137560379;102.0;-72.89480528581781;91.28238;2.2687852
+  hubend:
+    world: resourceworlds/overworld
+    pos1: 17.0;161.0;-19.0
+    pos2: 15.0;161.0;-17.0
+    destination: resourceworlds/end;0.5176547650989817;64.0;0.4726238264701352;177.70099;6.255424
+  endhub:
+    world: resourceworlds/end
+    pos1: 2.0;60.0;-2.0
+    pos2: -2.0;60.0;2.0
+    destination: resourceworlds/overworld;21.391693914357088;171.0;-23.284524597893114;45.576477;18.283154
+  hubnether:
+    world: resourceworlds/overworld
+    pos1: 19.0;169.0;-56.0
+    pos2: 12.0;169.0;-63.0
+    destination: resourceworlds/nether;-184.4164207712925;77.0;73.39682705647543;-44.107388;10.209267
+  netherhub:
+    world: resourceworlds/nether
+    pos1: -184.0;75.0;75.0
+    pos2: -178.0;75.0;80.0
+    destination: resourceworlds/overworld;21.388697522168542;171.0;-53.64414826381773;136.66039;21.820797
+  openworldlobby:
+    world: openworld
+    pos1: 391.0;90.0;65.0
+    pos2: 387.0;94.0;64.5
+    destination: world;-0.09423724122119201;100.0;13.317235947486965;-177.49693;-2.669198

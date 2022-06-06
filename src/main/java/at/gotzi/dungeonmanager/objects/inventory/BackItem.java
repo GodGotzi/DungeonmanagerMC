@@ -1,0 +1,23 @@
+package at.gotzi.dungeonmanager.objects.inventory;
+
+import org.bukkit.inventory.ItemStack;
+
+public class BackItem {
+
+    private final ItemStack itemStack;
+    private final int slot;
+
+
+    public BackItem(ItemStack itemStack, int slot) {
+        this.itemStack = itemStack;
+        this.slot = slot;
+    }
+
+    public ItemStack getItemStack() {
+        return itemStack;
+    }
+
+    public int getSlot() {
+        return slot;
+    }
+}

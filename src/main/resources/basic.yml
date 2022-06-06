@@ -1,0 +1,26 @@
+scoreboard:
+  title: '&3&lCardano'
+  text:
+    - ' '
+    - '&6Class'
+    - '&1&r&7%CLASS%'
+    - '  '
+    - '&6Money'
+    - '&2&r&7%MONEY%$'
+    - '   '
+    - '&6Adventure Experience'
+    - '&3&r&7%EXP%'
+    - '    '
+    - '&6Playtime'
+    - '&4&r&7%HOURS% hours %MINS% min'
+news:
+  settings:
+    period: 60
+    barStyle: SOLID
+  mode:
+    '1':
+      title: 'Hey whats up?'
+      barColor: WHITE
+    '2':
+      title: '&2cool'
+      barColor: WHITE
